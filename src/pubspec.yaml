@@ -1,0 +1,75 @@
+name: mudakir
+description: ""
+
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  
+  flutter:
+    sdk: flutter
+
+  flutter_islamic_icons: ^1.0.2
+  font_awesome_flutter: ^10.8.0
+  google_fonts: ^6.2.1
+
+  animated_flip_counter: ^0.3.4
+  flutter_layout_grid: ^2.0.7
+  loading_indicator: ^3.1.1
+  adaptive_theme: ^3.6.0
+  flutter_svg: ^2.0.16
+  hijri: ^3.0.0
+  
+
+  intl: any
+  flutter_localizations:
+    sdk: flutter
+  
+  dio: ^5.7.0
+  provider: ^6.1.2
+  # location: ^7.0.1
+  go_router: ^14.6.2
+  shared_preferences: ^2.3.3
+
+  package_info_plus: ^8.1.2
+  flutter_colorpicker: ^1.1.0
+  flutter_qiblah: ^3.0.4
+  geolocator: ^13.0.2
+  adhan: ^2.0.0+1
+  json_serializable: ^6.9.2
+  json_annotation: ^4.9.0
+  build_runner: ^2.4.14
+  url_launcher: ^6.3.1
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  auto_size_text: ^3.0.0
+  flutter_launcher_icons: ^0.14.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/svg/wave.svg
+    - assets/svg/compass/needle.svg
+    - assets/svg/compass/compass.svg
+    - assets/svg/adhkar_button_wave.svg
+    - assets/json/adhkar/adhkar.json
+    - assets/json/adhkar/sections_db.json
+    - assets/images/arabesque.png
+
+
+flutter_launcher_icons:
+  android: true
+  adaptive_icon_background: "#7961f4"
+  image_path_android: "assets/logo.png"
+  adaptive_icon_foreground: "assets/logo.png"
+  adaptive_icon_monochrome: "assets/logo.png"

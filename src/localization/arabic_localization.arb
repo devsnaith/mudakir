@@ -1,0 +1,239 @@
+{
+    "@@locale":         "ar",
+    "@@author":         "@devsnaith (https://github.com/devsnaith)",
+    "@@comment":        "Arabic localiztion for Mudakir App",
+    "@@last_modified":  "Fri, 17 Jan 2025",
+
+    "summary_card_time_begin_message": "دخل وقت {name}",
+    "summary_card_plural_hour": "{count, plural, other{{count} ساعات} two{ساعتين} one{ساعة واحدة}}",
+    "summary_card_plural_minute": "{count, plural, other{{count} دقائق} two{دقيقتين} one{دقيقة}}",
+
+    "summary_card_and": "و",
+    "summary_card_until": "حتى",
+
+    "global_post_meridiem_time": "مساءً{text}",
+    "global_ante_meridiem_time": "صباحًا{text}",
+
+    "global_fajr_time"          : "الفجر",
+    "global_sunrise_time"       : "الشروق",
+    "global_dhuhr_time"         : "{arg, select, other{الظهر} true{الجمعة}}",
+    "global_asr_time"           : "العصر",
+    "global_maghrib_time"       : "المغرب",
+    "global_isha_time"          : "العشاء",
+
+    "global_title_bar": "مُدَّكِرٍ",
+    "@global_title_bar": {
+        "description": "اسم التطبيق مُترجَم لعناوين الصفحات."
+    },
+    
+    "settings_menu_button_name": "الإعدادات",
+    "@settings_menu_button_name": {
+      "description": "نص زر الإعدادات في قائمة الازرار اعلى الشاشة الرئيسية"
+    },
+
+
+    "settings_location_group_label": "إعدادات الموقع الجغرافي",
+    "@settings_location_group_label": {
+      "description": "عنوان مجموعة إعدادات الموقع"
+    },
+
+
+    "settings_location_select_location": "الموقع الجغرافي",
+    "@settings_location_select_location": {
+      "description": "اسم زر تحديد الموقع الجغرافي"
+    },
+
+
+    "settings_location_no_saved_location": "لم يُحدّد الموقع جغرافي بعد.",
+    "@settings_location_no_saved_location": {
+      "description": "تفاصيل زر اختيار الموقع في حال عدم وجود موقع محفوظ مسبقًا"
+    },
+
+
+    "settings_location_got_saved_location_indicator": "حُدث في {time}",
+
+
+
+    
+    "settings_location_clear_saved_location": "مسح الموقع الجغرافي المحفوظ",
+    "@settings_location_clear_saved_location": {
+      "description": "اسم زر حذف الموقع الجغرافي المحفوظ"
+    },
+
+
+
+    "settings_title_bar": "إعدادات التطبيق",
+    "@settings_title_bar": {
+        "description": "عنوان صفحة الإعدادات"
+    },
+
+
+    "settings_application_information_label": "تفاصيل التطبيق",
+    "@settings_application_information_label": {
+      "description": "عنوان المجموعة التي تحوي تفاصيل عن التطبيق"
+    },
+
+
+    "settings_application_information_version": "الإصدار",
+    "@settings_application_information_version": {
+      "description": "نص صف إصدار التطبيق"
+    },
+
+
+    "settings_appearance_group_label": "لون التطبيق ومظهره",
+    "@settings_appearance_group_label": {
+      "description": "عنوان مجموعة التحكم في مظهر التطبيق"
+    },
+
+
+    "settings_appearance_system_brightness": "إضاءة النظام",
+    "@settings_appearance_system_brightness": {
+      "description": "نص زر استخدام إضاءة الجهاز للتطبيق"
+    },
+
+
+    "settings_appearance_light_brightness": "إضاءة فاتحة",
+    "@settings_appearance_light_brightness": {
+      "description": "نص زر استخدام إضاءة داكنة للتطبيق"
+    },
+
+
+    "settings_appearance_dark_brightness": "إضاءة داكنة",
+    "@settings_appearance_dark_brightness": {
+      "description": "نص زر استخدام اضاءة فاتحة للتطبيق"
+    },
+
+
+    "settings_localization_group_label": "لغة التطبيق والوقت",
+    "@settings_localization_group_label": {
+        "description": "عنوان مجموعة لغة التطبيق وتنسيق الوقت"
+    },
+
+
+    "settings_clock_format_btn_title": "نظام 24 ساعة",
+    "@settings_clock_format_btn_title": {
+      "description": "عرض الاوقات بنظام 24 ساعة"
+    },
+
+
+    "settings_language_btn_title": "اللغات",
+    "@settings_language_btn_title": {
+        "description": "اسم زر اللغات"
+    },
+
+
+    "settings_clock_format_12_mode_description": "يتم عرض الوقت بنظام 12 ساعة",
+    "@settings_clock_format_12_mode_description": {
+      "description": "التفاصيل عند عرض الوقت بنظام 12 ساعة"
+    },
+
+
+    "settings_clock_format_24_mode_description": "يتم عرض الوقت بنظام 24 ساعة",
+    "@settings_clock_format_24_mode_description": {
+        "description": "التفاصيل عند عرض الوقت بنظام 24 ساعة"
+    },
+
+
+    "settings_system_language_option_name": "لغة النظام الاساسية",
+    "@settings_system_language_option_name": {
+        "description": "اسم زر إتبع لغة النظام"
+    },
+
+
+    "dialogs_location_permission_request_title": "خدمة الموقع مطلوبة",
+    "@dialogs_location_permission_request_title": {
+        "description": "العنوان لحوار طلب صلاحية الوصول الى الموقع"
+    },
+    
+    "dialogs_location_permission_request_description": "يحتاج التطبيق الى صلاحية الوصول الى موقعك الجغرافي ليعرض إتجاه القِبلة وأوقات الصلاوات بناءًا عليه. بدون خدمة الموقع لن يتمكن التطبيق من عرضهم.",
+    "@dialogs_location_permission_request_description": {
+        "description": "تفاصيل رسالة طلب الحصول على صلاحية الموقع"
+    },
+
+    "dialogs_location_permission_request_grant_button_name": "السماح بالوصول الى الموقع",
+    "@dialogs_location_permission_request_grant_button_name": {
+      "description": "نص زر السماح للوصول الى خدمة الموقع في نافذة الحوار"
+    },
+
+    "dialogs_location_permission_request_deny_button_name": "رفض",
+    "@dialogs_location_permission_request_deny_button_name": {
+        "description": "نص زر رفض للوصول الى خدمة الموقع في نافذة الحوار"
+    },
+
+    "msg_location_service_disabled_title": "خدمة الموقع معطلة",
+    "@msg_location_service_disabled_title": {
+        "description": "عنوان رسالة خدمة الموقع غير مفعله"
+    },
+
+    "msg_location_service_disabled_description": "لعرض اوقات الصلاوات وإتجاه القِبلة يجب تفعيل خدمة الموقع من اعدادات الجهاز.",
+    "@msg_location_service_disabled_description": {
+        "description": "تفاصيل رسالة خدمة الموقع غير مفعله"
+    },
+
+    "msg_request_location_enable_button_name": "تفعيل خدمة الموقع",
+    "@msg_request_location_enable_button_name": {
+        "description": "نص زر طلب تفعيل خدمة الموقع"
+    },
+
+    "msg_location_permission_denied_title": "تعذر الحصول على موقع الجهاز",
+    "@msg_location_permission_denied_title": {
+      "description": "عنوان رسالة رفض الوصول الى الموقع"
+    },
+
+    "msg_location_permission_denied_description": "تم ارسال طلب للحصول على موقع الجهاز بالفعل ولكنه رُفِض",
+    "@msg_location_permission_denied_description": {
+      "description": "تفاصيل رسالة رفض الوصول الى الموقع"
+    },
+
+    "msg_location_getting_location_indicator_message": "تحديد إتجاه القبلة....",
+    "@msg_location_getting_location_indicator_message": {
+      "description": "رسالة لملئ الفراغ اثناء تحديد اتجاه القبلة"
+    },
+
+    "msg_request_location_permission_again_button_name": "إعادة المحاولة",
+    "@msg_request_location_permission_again_button_name": {
+        "description": "نص زر إعادة ارسل طلب صلاحية الوصول الى الموقع"
+    },
+
+    "msg_report_send_button_name": "عرض التقرير",
+    "@msg_report_send_button_name": {
+      "description": "نص زر الإبلاغ بوجود خطأ"
+    },
+
+    "msg_qibla_unsupported_error_description": "لايدعم الجهاز المستشعرات المطلوبة لتحديد إتجاه القبله",
+    "@msg_qibla_unsupported_error_description": {
+      "description": "رسالة الخطأ عند عدم وجود مستشعرات البوصلة"
+    },
+
+    "msg_qibla_uncatched_error_description": "حدث خطأ اثناء تحديد إتجاه القبله",
+    "@msg_qibla_uncatched_error_description": {
+      "description": "عند حدوث خطأ غير معروف"
+    },
+
+    "msg_qibla_location_disabled_error_description": "تعذر الوصول الى خدمة الموقع، الرجاء التأكد من تفعيل خدمات الموقع.",
+    "@msg_qibla_location_disabled_error_description": {
+      "description": "محتوى الرسالة في حال مُنع الوصول الى خدمات الموقع في تحديد إتجاه القبله"
+    },
+
+    "msg_qibla_location_disabled_error_try_again_button": "حاول مجددًا",
+    "@msg_qibla_location_disabled_error_try_again_button": {
+      "description": "نص زر إعادة المحاولة عند فشل الوصول الى خدمة الموقع في تحديد إتجاه القبله"
+    },
+
+    "msg_qibla_notes_title_label": "ملاحظات",
+    "@msg_qibla_notes_title_label": {
+      "description": "عنوان مجموعة الملاحظات في تحديد إتجاه القبله"
+    },
+
+    "msg_qibla_notes_unreliable_sensor_note": "1. قد تكون مستشعرات البوصلة غير دقيقة",
+    "@msg_qibla_notes_unreliable_sensor_note": {
+      "description": "ملاحظة بأن المستشعرات قد تكون غير دقيقة"
+    },
+
+    "msg_qibla_notes_location_service_note": "2. يجب تفعيل خدمة الموقع دائمًا عند إستخدام البوصلة",
+    "@msg_qibla_notes_location_service_note": {
+      "description": "ملاحظة بأن خدمة الموقع إلزامية عند استخدام البوصلة لِنتائج ادق"
+    },
+
+    "navigation_bar_buttons_name": "{key, select, other{{key}} Times{الأوقات} Qibla{القبلة} Adhkar{الأذكار} Tools{الأدوات}}"
+}

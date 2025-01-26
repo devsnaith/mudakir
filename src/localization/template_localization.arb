@@ -1,0 +1,247 @@
+{
+    "@@locale":         "en",
+    "@@author":         "@devsnaith (https://github.com/devsnaith)",
+    "@@comment":        "English localiztion for Mudakir App",
+    "@@last_modified":  "Fri, 17 Jan 2025",
+
+    "summary_card_time_begin_message": "It is {name} time", "@summary_card_time_begin_message": {"placeholders": {"name": {"type": "String"}}},
+    "summary_card_plural_hour": "{count, plural, other{{count} Hours} one{{count} Hour}}", "@summary_card_plural_hour": {"placeholders": {"count": {"type": "int"}}},
+    "summary_card_plural_minute": "{count, plural, other{{count} minutes} one{{count} minute}}", "@summary_card_plural_minute": {"placeholders": {"count": {"type": "int"}}},
+
+    "global_post_meridiem_time": "{text}PM", "@global_post_meridiem_time": {"placeholders": {"text": {"type": "String"}}},
+    "global_ante_meridiem_time": "{text}AM", "@global_ante_meridiem_time": {"placeholders": {"text": {"type": "String"}}},
+
+    "summary_card_and": "and", "@summary_card_and": {"type": "text"},
+    "summary_card_until": "until", "@summary_card_until": {"type": "text"},
+
+    "global_fajr_time"        : "Fajr", "@global_fajr_time": {"type": "text"},
+    "global_sunrise_time"     : "Sunrise", "@global_sunrise_time": {"type": "text"},
+    "global_dhuhr_time"       : "{arg, select, other{Dhuhr} true{Friday}}", "@global_dhuhr_time": {"placeholders": {"arg": {"type":"String"}}},
+    "global_asr_time"         : "Asr", "@global_asr_time": {"type": "text"},
+    "global_maghrib_time"     : "Maghrib", "@global_maghrib_time": {"type": "text"},
+    "global_isha_time"        : "Isha", "@global_isha_time": {"type": "text"},
+
+    "global_title_bar": "Mudakir",
+    "@global_title_bar": {
+        "description": "Localized name for pages title."
+    },
+
+    "settings_menu_button_name": "Settings",
+    "@settings_menu_button_name": {
+      "description": "Settings button name at the appBar.",
+      "comment": "HomePage -> appBar -> 3-dots -> Settings"
+    },
+
+    "settings_location_group_label": "Location Settings",
+    "@settings_location_group_label": {
+      "description": "The name for the group contains location settings",
+      "comment": "Settings -> Location Settings"
+    },
+
+    "settings_location_select_location": "Location",
+    "@settings_location_select_location": {
+      "description": "Change Location button name",
+      "comment": "Settings -> Location Settings -> button"
+    },
+
+    "settings_location_no_saved_location": "Location not yet determined.",
+    "@settings_location_no_saved_location": {
+      "description": "Change Location button description when no location saved yet",
+      "comment": "Settings -> Location Settings -> btn description"
+    },
+
+    "settings_location_got_saved_location_indicator": "Updated At {time}",
+    "@settings_location_got_saved_location_indicator": {
+      "placeholders": {"time": {"type": "String"}}
+    },
+
+    "settings_location_clear_saved_location": "Clear Location Data",
+    "@settings_location_clear_saved_location": {
+      "description": "Delete saved location data btn name",
+      "comment": "Settings -> Location Settings -> button"
+    },
+
+
+    "settings_title_bar": "Settings",
+    "@settings_title_bar": {
+      "description": "The title for the settings screen/page.",
+      "comment": "Settings -> appBar"
+    },
+
+    "settings_application_information_label": "Application Information",
+    "@settings_application_information_label": {
+      "description": "The name for the group contains app info",
+      "comment": "Settings -> Application Information"
+    },
+
+    "settings_application_information_version": "Version",
+    "@settings_application_information_version": {
+      "description": "App Version Label",
+      "comment": "Settings -> Application Information -> Version"
+    },
+
+    "settings_appearance_group_label": "Appearance",
+    "@settings_appearance_group_label": {
+      "description": "The name for the group contains <Look And Feel ;)> settings",
+      "comment": "Settings -> Appearance"
+    },
+
+    "settings_appearance_system_brightness": "System",
+    "@settings_appearance_system_brightness": {
+      "description": "Use system/device brightness option name",
+      "comment": "Settings -> Appearance -> buttons"
+    },
+
+    "settings_appearance_light_brightness": "Light",
+    "@settings_appearance_light_brightness": {
+      "description": "Use light brightness option name",
+      "comment": "Settings -> Appearance -> buttons"
+    },
+
+    "settings_appearance_dark_brightness": "Dark",
+    "@settings_appearance_dark_brightness": {
+      "description": "Use dark brightness option name",
+      "comment": "Settings -> Appearance -> buttons"
+    },
+
+    "settings_localization_group_label": "Localization",
+    "@settings_localization_group_label": {
+      "description": "The name for the group contains language and clock format settings",
+      "comment": "Settings -> Localization"
+    },
+
+    "settings_clock_format_btn_title": "24-hour Clock",
+    "@settings_clock_format_btn_title": {
+      "description": "Show times in 24-hour Clock Format",
+      "comment": "Settings -> Localization -> [name of] 24-hour Clock"
+    },
+
+    "settings_clock_format_12_mode_description": "Times are displayed in 12-hour mode",
+    "@settings_clock_format_12_mode_description": {
+      "description": "Description when 12-hour Clock Format enabled",
+      "comment": "Settings -> Localization -> [description of] 24-hour Clock"
+    },
+
+    "settings_clock_format_24_mode_description": "Times are displayed in 24-hour mode",
+    "@settings_clock_format_24_mode_description": {
+      "description": "Description when 12-hour Clock Format enabled",
+      "comment": "Settings -> Localization -> [description of] 24-hour Clock"
+    },
+
+    "settings_language_btn_title": "Languages",
+    "@settings_language_btn_title": {
+      "description": "Language button name",
+      "comment": "Settings -> Localization -> [name of] Languages"
+    },
+
+    "settings_system_language_option_name": "System Language",
+    "@settings_system_language_option_name": {
+      "description": "Follow the system locale button name",
+      "comment": "Settings -> Localization -> Languages -> System Language"
+    },
+
+    "dialogs_location_permission_request_title": "Use location service?",
+    "@dialogs_location_permission_request_title": {
+      "description": "The title for the location permission request dialog."
+    },
+
+    "dialogs_location_permission_request_description": "Location services are important to get qibla direction and prayer times related to your location. Without location service the app cannot get them.",
+    "@dialogs_location_permission_request_description": {
+      "description": "The description for the location permission request dialog."
+    },
+
+    "dialogs_location_permission_request_grant_button_name": "Allow",
+    "@dialogs_location_permission_request_grant_button_name": {
+      "description": "Grant/Allow button text for the location permission dialog"
+    },
+
+    "dialogs_location_permission_request_deny_button_name": "Deny",
+    "@dialogs_location_permission_request_deny_button_name": {
+      "description": "Deny/Reject button text for the location permission dialog"
+    },
+
+    "msg_location_service_disabled_title": "Location Service is Disabled",
+    "@msg_location_service_disabled_title": {
+      "description": "The message title when the location service isn't enabled"
+    },
+
+    "msg_location_service_disabled_description": "To view prayer times and qibla direction, you must enable location service from your device settings.",
+    "@msg_location_service_disabled_description": {
+      "description": "The message description when the location service isn't enabled"
+    },
+
+    "msg_request_location_enable_button_name": "Enable Location Service",
+    "@msg_request_location_enable_button_name": {
+      "description": "Enable the location service button name"
+    },
+
+    "msg_location_permission_denied_title": "Couldn't get the Location",
+    "@msg_location_permission_denied_title": {
+      "description": "The message title when the location permission gets denied"
+    },
+
+    "msg_location_permission_denied_description": "Location request was sent but the request got rejected.",
+    "@msg_location_permission_denied_description": {
+      "description": "The message subtitle/description when the location permission gets denied"
+    },
+
+    "msg_location_getting_location_indicator_message": "Getting qiblah direction...",
+    "@msg_location_getting_location_indicator_message": {
+      "description": "A Placeholder message while getting location data"
+    },
+
+    "msg_request_location_permission_again_button_name": "Try Again",
+    "@msg_request_location_permission_again_button_name": {
+      "description": "Send another location permission request button name"
+    },
+
+    "msg_report_send_button_name": "View Report",
+    "@msg_report_send_button_name": {
+      "description": "The 'Report' button label/Name/Value"
+    },
+
+    "msg_qibla_unsupported_error_description": "The device does not support the required sensors.",
+    "@msg_qibla_unsupported_error_description": {
+      "description": "The message when the device is unsupported"
+    },
+
+    "msg_qibla_uncatched_error_description": "Error occurred while getting Qibla direction.",
+    "@msg_qibla_uncatched_error_description": {
+      "description": "The message when unknown error occurred when getting the qibla direction"
+    },
+
+    "msg_qibla_location_disabled_error_description": "We could not access the location service, make sure it is enabled.",
+    "@msg_qibla_location_disabled_error_description": {
+      "description": "When Location service is disabled, this message will show"
+    },
+
+    "msg_qibla_location_disabled_error_try_again_button": "Try Again",
+    "@msg_qibla_location_disabled_error_try_again_button": {
+      "description": "When Location service is disabled, this value will be in the 'try again' button"
+    },
+
+    "msg_qibla_notes_title_label": "Notes",
+    "@msg_qibla_notes_title_label": {
+      "description": "The title name for the notes about qibla screen"
+    },
+
+    "msg_qibla_notes_unreliable_sensor_note": "1. Compass sensor can be unreliable.",
+    "@msg_qibla_notes_unreliable_sensor_note": {
+      "description": "Compass sensor can be unreliable note"
+    },
+
+    "msg_qibla_notes_location_service_note": "2. Location service must always be on while using the compass.",
+    "@msg_qibla_notes_location_service_note": {
+      "description": "Location service must always be on while using the compass note"
+    },
+
+    "navigation_bar_buttons_name": "{key, select, other{{key}} Times{Times} Qibla{Qibla} Adhkar{Adhkar} Tools{Tools}}",
+    "@navigation_bar_buttons_name": {
+        "description": "return a localized name for the navigation buttons",
+        "placeholders": {
+            "key": {
+              "type":"String"
+            }
+        }
+    }
+}
